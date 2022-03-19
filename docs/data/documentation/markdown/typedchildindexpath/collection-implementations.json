@@ -29,7 +29,7 @@
   },
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 3,
+    "minor" : 2,
     "patch" : 0
   },
   "sections" : [
@@ -55,6 +55,7 @@
         "doc:\/\/Markdown\/documentation\/Markdown\/TypedChildIndexPath\/formIndex(_:offsetBy:)",
         "doc:\/\/Markdown\/documentation\/Markdown\/TypedChildIndexPath\/formIndex(_:offsetBy:limitedBy:)",
         "doc:\/\/Markdown\/documentation\/Markdown\/TypedChildIndexPath\/formIndex(after:)",
+        "doc:\/\/Markdown\/documentation\/Markdown\/TypedChildIndexPath\/indexed()",
         "doc:\/\/Markdown\/documentation\/Markdown\/TypedChildIndexPath\/makeIterator()",
         "doc:\/\/Markdown\/documentation\/Markdown\/TypedChildIndexPath\/map(_:)-8mfng",
         "doc:\/\/Markdown\/documentation\/Markdown\/TypedChildIndexPath\/prefix(_:)",
@@ -690,6 +691,52 @@
   "title" : "formIndex(after:)",
   "type" : "topic",
   "url" : "\/documentation\/markdown\/typedchildindexpath\/formindex(after:)"
+},
+"doc://Markdown/documentation/Markdown/TypedChildIndexPath/indexed()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "indexed"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s17IndexedCollectionV",
+      "text" : "IndexedCollection"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Markdown\/documentation\/Markdown\/TypedChildIndexPath\/indexed()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "indexed()",
+  "type" : "topic",
+  "url" : "\/documentation\/markdown\/typedchildindexpath\/indexed()"
 },
 "doc://Markdown/documentation/Markdown/TypedChildIndexPath/isEmpty": {
   "abstract" : [

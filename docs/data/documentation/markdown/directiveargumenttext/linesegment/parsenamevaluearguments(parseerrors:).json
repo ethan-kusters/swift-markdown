@@ -207,14 +207,14 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "the diagnostic engine to use for emitting diagnostics.",
+                  "text" : "an array to update with any errors encountered while parsing",
                   "type" : "text"
                 }
               ],
               "type" : "paragraph"
             }
           ],
-          "name" : "diagnosticEngine"
+          "name" : "parseErrors"
         }
       ]
     },
@@ -323,7 +323,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 3,
+    "minor" : 2,
     "patch" : 0
   },
   "sections" : [

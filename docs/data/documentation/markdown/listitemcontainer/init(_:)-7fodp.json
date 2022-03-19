@@ -8,8 +8,8 @@
   "defaultImplementationsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/Markdown\/documentation\/Markdown\/ListItemContainer\/init(_:)-l8c8",
-        "doc:\/\/Markdown\/documentation\/Markdown\/ListItemContainer\/init(_:)-66wys"
+        "doc:\/\/Markdown\/documentation\/Markdown\/ListItemContainer\/init(_:)-66wys",
+        "doc:\/\/Markdown\/documentation\/Markdown\/ListItemContainer\/init(_:)-l8c8"
       ],
       "title" : "ListItemContainer Implementations"
     }
@@ -172,7 +172,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 3,
+    "minor" : 2,
     "patch" : 0
   },
   "sections" : [

@@ -97,13 +97,20 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 3,
+    "minor" : 2,
     "patch" : 0
   },
   "sections" : [
 
   ],
   "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Markdown\/documentation\/Markdown\/Parsing-Building-and-Modifying-Markup-Trees",
+        "doc:\/\/Markdown\/documentation\/Markdown\/Visitors-Walkers-and-Rewriters"
+      ],
+      "title" : "Getting Started"
+    },
     {
       "identifiers" : [
         "doc:\/\/Markdown\/documentation\/Markdown\/Markup",
@@ -824,6 +831,20 @@
   "type" : "topic",
   "url" : "\/documentation\/markdown\/parseoptions"
 },
+"doc://Markdown/documentation/Markdown/Parsing-Building-and-Modifying-Markup-Trees": {
+  "abstract" : [
+    {
+      "text" : "Get started with Swift-Markdown’s markup trees.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Markdown\/documentation\/Markdown\/Parsing-Building-and-Modifying-Markup-Trees",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Parsing, Building, and Modifying Markup Trees",
+  "type" : "topic",
+  "url" : "\/documentation\/markdown\/parsing-building-and-modifying-markup-trees"
+},
 "doc://Markdown/documentation/Markdown/PlainTextConvertibleMarkup": {
   "abstract" : [
     {
@@ -1012,6 +1033,28 @@
   "title" : "Visiting Markup",
   "type" : "topic",
   "url" : "\/documentation\/markdown\/visitmarkup"
+},
+"doc://Markdown/documentation/Markdown/Visitors-Walkers-and-Rewriters": {
+  "abstract" : [
+    {
+      "text" : "Use ",
+      "type" : "text"
+    },
+    {
+      "code" : "MarkupVisitor",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " to transform, walk, and rewrite markup trees.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Markdown\/documentation\/Markdown\/Visitors-Walkers-and-Rewriters",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Visitors, Walkers, and Rewriters",
+  "type" : "topic",
+  "url" : "\/documentation\/markdown\/visitors-walkers-and-rewriters"
 },
 "https://github.com/apple/swift-syntax": {
   "identifier" : "https:\/\/github.com\/apple\/swift-syntax",

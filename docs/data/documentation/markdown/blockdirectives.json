@@ -479,78 +479,6 @@
           ],
           "syntax" : "swift",
           "type" : "codeListing"
-        },
-        {
-          "anchor" : "Collecting-Diagnostics",
-          "level" : 2,
-          "text" : "Collecting Diagnostics",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "When parsing block directive syntax, Swift Markdown supplies an optional diagnostic infrastructure for reporting parsing problems to a user. See ",
-              "type" : "text"
-            },
-            {
-              "code" : "Diagnostic",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : ", ",
-              "type" : "text"
-            },
-            {
-              "code" : "DiagnosticEngine",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : ", and ",
-              "type" : "text"
-            },
-            {
-              "code" : "DiagnosticConsumer",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : ".",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "Here is a simple case if you just want to collect diagnostics:",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "code" : [
-            "class DiagnosticCollector: DiagnosticConsumer {",
-            "    var diagnostics = [Diagnostic]()",
-            "    func receive(_ diagnostic: Diagnostic) {",
-            "        diagnostics.append(diagnostic)",
-            "    }",
-            "}",
-            "",
-            "let collector = DiagnosticCollector()",
-            "let diagnostics = DiagnosticEngine()",
-            "diagnostics.subscribe(collector)",
-            "",
-            "let document = Document(parsing: source,",
-            "                        options: .parseBlockDirectives,",
-            "                        diagnostics: diagnostics)",
-            "",
-            "for diagnostic in collector.diagnostics {",
-            "  print(diagnostic)",
-            "}"
-          ],
-          "syntax" : "swift",
-          "type" : "codeListing"
         }
       ],
       "kind" : "content"
@@ -558,7 +486,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 3,
+    "minor" : 2,
     "patch" : 0
   },
   "sections" : [
